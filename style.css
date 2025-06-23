@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+nav{
+    background-color: rgb(25,25,25);
+    display : flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+nav img{
+    border-radius: 100%;
+    width: 5vh;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.songlist {
+    width: 85vw;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 65vh;
+    overflow-y: auto;
+    scrollbar-color: black transparent;
+    scrollbar-width: thin;
+}
+
+.songlist li {
+    list-style: none;
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.songlist li:hover {
+    background-color: #000000;
+}
+
+.player-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.seekbar {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.time-display,
+.volume-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.current-song {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #020094;
+}
+
+
+.bottom {
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right:0;
+    padding: 0vw 5vw 2vw 5vw;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Music Player</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img src="png-transparent-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-magenta-thumbnail.png" alt="Music Player Logo" class="logo">
+    <h2> Music Player</h2>
+
+  </nav>
+
+  <ul class="songlist"></ul>
+<div class="bottom">
+  
+  <div class="current-song" id="currentSong"></div>
+  
+  <div class="player-controls">
+    <span class="material-symbols-outlined" id="prevBtn">skip_previous</span>
+    <span class="material-symbols-outlined" id="playPauseBtn">play_arrow</span>
+    <span class="material-symbols-outlined" id="nextBtn">skip_next</span>
+    <span class="material-symbols-outlined" id="repeatBtn">repeat</span>
+    <span class="material-symbols-outlined" id="shuffleBtn">shuffle</span>
+  </div>
+  
+  <input type="range" class="seekbar" value="0" min="0" step="1">
+  <div class="time-display">
+    <span id="currentTime">0:00</span>
+    <span id="totalTime">0:00</span>
+  </div>
+  
+  <div class="volume-display">
+    <label for="volumeRange">🔊 Volume</label>
+    <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="1">
+  </div>
+  
+  <script src="script.js"></script>
+</div>
+</body>
+</html>
