@@ -21,7 +21,7 @@ let songs = [];
     }
 
     async function getMusicFilesFromHTML() {
-      const path = await fetch("http://127.0.0.1:3000/Web%20Development/Music%20Player/Musics");
+      const path = await fetch("http://https://drive.google.com/drive/folders/13w4OUWfcHSW4dl9or6QE08ZOpao10MOe");
       const response = await path.text();
       const div = document.createElement("div");
       div.innerHTML = response;
