@@ -25,7 +25,7 @@ function formatTime(sec) {
 async function getMusicFilesFromGitHub() {
   const response = await fetch("https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/playlist.json");
   const songs = await response.json();
-  return data
+  return songs;
     .filter(file => file.name.endsWith(".mp3"))
     .map(file => ({
       name: file.name,
