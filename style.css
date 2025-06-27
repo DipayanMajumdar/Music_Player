@@ -51,10 +51,23 @@ body {
     padding: 10px 2vh;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    height: 69vh;
+    height: 70vh;
     overflow-y: auto;
     scrollbar-color: black transparent;
     scrollbar-width: thin;
+}
+
+@media (min-width: 1440px) {
+    .songlist{
+        height: 73.5vh;
+        padding: 5px 2vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .songlist{
+        height: 65vh;
+    }
 }
 
 .songlist li {
