@@ -51,7 +51,7 @@ body {
     padding: 10px 2vh;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    height: 70vh;
+    height: 67vh;
     overflow-y: auto;
     scrollbar-color: black transparent;
     scrollbar-width: thin;
@@ -61,12 +61,6 @@ body {
     .songlist{
         height: 73.5vh;
         padding: 5px 2vh;
-    }
-}
-
-@media (max-width: 900px) {
-    .songlist{
-        height: 65vh;
     }
 }
 
