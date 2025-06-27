@@ -30,7 +30,7 @@ async function getMusicFilesFromGitHub() {
     .filter(file => file.name.endsWith(".mp3"))
     .map(file => ({
       name: file.name,
-      url: file.download_url
+      url: file.url
     }));
 }
 
