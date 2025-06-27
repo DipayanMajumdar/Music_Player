@@ -27,7 +27,6 @@ async function getMusicFilesFromGitHub() {
   const files = await response.json();
 
   return files
-    .filter(file => file.name.endsWith(".mp3"))
     .map(file => ({
       name: file.name,
       url: file.download_url
