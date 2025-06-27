@@ -4,8 +4,8 @@
     "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Apna%20Bana%20Le.mp3"
   },
   {
-    "name": "Desabriyan",
-    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Desabriyan.mp3"
+    "name": "Besabriyaan",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Besabriyaan.mp3"
   },
   {
     "name": "Dreamer",
@@ -38,5 +38,25 @@
   {
     "name": "Naina Da Kya Kasoor",
     "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Naina%20Da%20Kya%20Kasoor.mp3"
+  },
+  {
+    "name": "Palm",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Palm.mp3"
+  },
+  {
+    "name": "Param Sundari",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Param%20Sundari.mp3"
+  },
+  {
+    "name": "Phir Mohabbat",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Phir%20Mohabbat.mp3"
+  },
+  {
+    "name": "Ranjha",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Ranjha.mp3"
+  },
+  {
+    "name": "Satranga",
+    "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Satranga.mp3"
   }
 ]
