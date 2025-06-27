@@ -64,7 +64,7 @@ body {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
     .songlist{
         height: 65vh;
     }
