@@ -5,6 +5,11 @@
     font-family: "Roboto", sans-serif;
     font-size: 17px;
     box-sizing: border-box;
+    user-select: none;
+}
+
+.material-symbols-outlined{
+    font-size: 1.5rem;
 }
 
 body {
@@ -206,7 +211,7 @@ body h3 {
 }
 
 #favBtn {
-    margin-bottom: 2px;
+    margin-bottom: 3.9px;
 }
 
 .player-controls {
