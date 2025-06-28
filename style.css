@@ -8,11 +8,11 @@
     user-select: none;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     font-size: 1.6rem;
 }
 
-label .material-symbols-outlined{
+label .material-symbols-outlined {
     font-size: 1.5rem;
 }
 
@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    padding-bottom: 100px; /* Ensure content is not hidden behind the fixed footer */
 }
 
 @media(max-height:1920px) and (max-width:1920px) {
@@ -34,7 +35,6 @@ body {
     from {
         transform: rotate(0deg);
     }
-
     to {
         transform: rotate(360deg);
     }
@@ -99,7 +99,7 @@ body h3 {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 12px;
     border: 2px solid black;
-    max-height: calc(95vh - 270px);
+    max-height: calc(100vh - 310px); /* Updated to prevent overflow */
     overflow-y: auto;
     scrollbar-color: black transparent;
     scrollbar-width: thin;
@@ -160,11 +160,9 @@ body h3 {
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
-
     100% {
         background-position: 0% 50%;
     }
@@ -211,7 +209,6 @@ body h3 {
     transform: scale(1.2);
     color: rgb(255, 255, 125);
     cursor: pointer;
-
 }
 
 #favBtn {
@@ -291,7 +288,6 @@ body h3 {
     opacity: 0;
     transition: 0.5s ease-in-out;
 }
-
 
 /* About Section */
 .about {
