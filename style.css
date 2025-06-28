@@ -228,6 +228,7 @@ body h3 {
 
 /* Seekbar */
 .seekbar {
+    user-select: auto;
     width: 100%;
     margin-top: 10px;
     height: 8px;
@@ -238,6 +239,7 @@ body h3 {
 }
 
 #volumeRange {
+    user-select: auto;
     -webkit-appearance: none;
     margin: auto 0;
     height: 5px;
