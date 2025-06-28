@@ -17,44 +17,56 @@
 </head>
 
 <body>
-  <!-- ...inside <body> -->
   <nav>
-    <img
-      src="png-transparent-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-magenta-thumbnail.png"
-      alt="Music Player Logo" class="logo">
-    <h2>Music Player</h2>
+    <div>
+      <img
+        src="png-transparent-google-play-music-media-player-mp3-player-music-material-miscellaneous-album-magenta-thumbnail.png"
+        alt="Music Player Logo" class="logo album-art">
+      <h2>Music Player</h2>
+    </div>
+    <div>
+      <a href=" ">Home</a>
+      <a href="about.html">About</a>
+    </div>
   </nav>
 
+  <div class="search-container">
+    <input type="text" id="searchBox" placeholder="Search songs...">
+    <div class="localfiles">
+      <input type="file" id="localFiles" accept="audio/*" multiple />
+      <label for="localFiles" class="addfile">
+        <div class="material-symbols-outlined">add_2</div>
+        Add Your Musics
+      </label>
+    </div>
+  </div>
+
+  <h3>Song List</h3>
   <ul class="songlist"></ul>
 
   <div class="bottom">
-    <div class="current-song" id="currentSong">&nbsp</div>
+    <div class="current-song" id="currentSong">&nbsp;</div>
 
     <div class="player-controls">
-      <span class="material-symbols-outlined" id="shuffleBtn">shuffle</span>
-      <span class="material-symbols-outlined onoff" id="prevBtn"
-        style="pointer-events: none; opacity: 0.5;">skip_previous</span>
-      <span class="material-symbols-outlined" id="rewindBtn">replay_10</span>
-      <span class="material-symbols-outlined onoff" id="playPauseBtn"
-        style="pointer-events: none; opacity: 0.5;">play_arrow</span>
-      <span class="material-symbols-outlined" id="forwardBtn">forward_10</span>
-      <span class="material-symbols-outlined onoff" id="nextBtn"
-        style="pointer-events: none; opacity: 0.5;">skip_next</span>
-      <span class="material-symbols-outlined" id="repeatBtn">repeat</span>
-
-      <!-- ✅ NEW CONTROLS -->
-      <span id="favBtn" class="onoff" style="pointer-events: none; opacity: 0.5;">🤍</span>
+      <span class="material-symbols-outlined" id="shuffleBtn" title="Shuffle">shuffle</span>
+      <span class="material-symbols-outlined onoff" id="prevBtn" title="Previous Song">skip_previous</span>
+      <span class="material-symbols-outlined" id="rewindBtn" title="Rewind 10s">replay_10</span>
+      <span class="material-symbols-outlined onoff" id="playPauseBtn" title="Play/Pause">play_arrow</span>
+      <span class="material-symbols-outlined" id="forwardBtn" title="Forward 10s">forward_10</span>
+      <span class="material-symbols-outlined onoff" id="nextBtn" title="Next Song">skip_next</span>
+      <span class="material-symbols-outlined" id="repeatBtn" title="Repeat">repeat</span>
+      <span id="favBtn" class="onoff" title="Favorite">🤍</span>
     </div>
 
-    <input type="range" class="seekbar" value="0" min="0" step="1">
+    <input type="range" class="seekbar onoff" value="0" min="0" step="1">
     <div class="time-display">
       <span id="currentTime">0:00</span>
       <span id="totalTime">0:00</span>
     </div>
 
     <div class="volume-display">
-      <img src="gif.gif">
-      <label for="volumeRange" class="material-symbols-outlined" id="muteBtn">volume_up</label>
+      <img src="gif.gif" alt="Volume Animation">
+      <label for="volumeRange" class="material-symbols-outlined" id="muteBtn" title="Mute/Unmute">volume_up</label>
       <input type="range" id="volumeRange" min="0" max="1" step="0.01" value="1">
     </div>
   </div>
