@@ -99,7 +99,7 @@ body h3 {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 12px;
     border: 2px solid black;
-    max-height: calc(100vh - 380px); /* Updated to prevent overflow */
+    max-height: calc(100vh - 370px); /* Updated to prevent overflow */
     overflow-y: auto;
     scrollbar-color: black transparent;
     scrollbar-width: thin;
