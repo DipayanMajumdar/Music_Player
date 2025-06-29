@@ -1,12 +1,17 @@
 [
+  { "name": "Alan Walker - Faded", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Alan%20Walker%20-%20Faded.mp3" },
+  { "name": "Ankhan Vich Surma Kala", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Ankhan%20Vich%20Surma%20Kala.mp3" },
   { "name": "Apna Bana Le", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Apna%20Bana%20Le.mp3" },
   { "name": "Besabriyaan", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Besabriyaan.mp3" },
-  { "name": "Dreamer", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Dreamer.mp3" },
+  { "name": "Desh Mere", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Desh%20Mere.mp3" },
   { "name": "Duniya", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Duniya.mp3" },
+  { "name": "Feet Dont Fail Me Now", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Feet%20Dont%20Fail%20Me%20Now.mp3" },
   { "name": "Heer Ranjha", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Heer%20Ranjha.mp3" },
+  { "name": "Imagine Dragons Believer", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Imagine%20Dragons%20Believer.mp3" },
   { "name": "Kahani Suno 2.0", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Kahani%20Suno%202.0.mp3" },
   { "name": "Kala Chashma", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Kala%20Chashma.mp3" },
   { "name": "Kaun Tujhe", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Kaun%20Tujhe.mp3" },
+  { "name": "Maan Meri Jaan", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Maan%20Meri%20Jaan.mp3" },
   { "name": "Mere Liye Tum Kaafi Ho", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Mere%20Liye%20Tum%20Kaafi%20Ho.mp3" },
   { "name": "Naina Da Kya Kasoor", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Naina%20Da%20Kya%20Kasoor.mp3" },
   { "name": "Nainowale Ne", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Nainowale%20Ne.mp3" },
@@ -15,8 +20,10 @@
   { "name": "Paani Paani", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Paani%20Paani.mp3" },
   { "name": "Pal", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Pal.mp3" },
   { "name": "Param Sundari", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Param%20Sundari.mp3" },
+  { "name": "Peaky Blinder - Gandagana", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Peaky%20Blinder%20-%20Gandagana.mp3" },
   { "name": "Pehla Pyaar", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Pehla%20Pyaar.mp3" },
   { "name": "Phir Mohabbat", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Phir%20Mohabbat.mp3" },
   { "name": "Ranjha", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Ranjha.mp3" },
-  { "name": "Satranga", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Satranga.mp3" }
+  { "name": "Satranga", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Satranga.mp3" },
+  { "name": "Tu Aake Dekhle", "download_url": "https://raw.githubusercontent.com/DipayanMajumdar/Music_Player/main/Musics/Tu%20Aake%20Dekhle.mp3" }
 ]
