@@ -121,15 +121,6 @@ body h3 {
     background-color: #040042;
 }
 
-@media (min-width: 500px) {
-    .volume-display img {
-        width: 8.5vw;
-        height: auto;
-        left: auto;
-        right: 5vw;
-        bottom: 9vh;
-    }
-}
 
 /* Footer */
 .bottom {
@@ -287,6 +278,16 @@ body h3 {
     bottom: 1vh;
     opacity: 0;
     transition: 0.5s ease-in-out;
+}
+
+@media (min-width: 500px) {
+    .volume-display img {
+        width: 8.5vw;
+        height: auto;
+        left: auto;
+        right: 5vw;
+        bottom: 9vh;
+    }
 }
 
 /* About Section */
